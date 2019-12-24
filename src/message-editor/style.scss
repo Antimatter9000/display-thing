@@ -1,0 +1,21 @@
+form {
+    margin-top: 50px;
+    position: fixed;
+    bottom: 50px;
+    width: 80%;
+    left: 10%;
+    height: 40%;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 2rem;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+body {
+    background-color: black;
+    color: red;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: content-box;
+}

@@ -1,0 +1,28 @@
+header {
+    position: fixed;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    z-index:100;
+    box-sizing: border-box;
+
+    &.visible {
+        top: 0;
+    }
+
+    &.hidden {
+        top: -40px;
+    }
+
+    &:after {
+        content: ' ';
+        display: block;
+        clear: both;
+    }
+}
+
+button {
+    float: right;
+}
