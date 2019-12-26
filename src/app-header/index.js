@@ -48,7 +48,7 @@ customElements.define(
 
         get template() {
             return (
-                <header class={'visible'}>
+                <header class={this.visible ? 'visible' : 'hidden'}>
                     <style>{style.toString()}</style>
                     <big>Sign</big>
                     <button onclick={this.fs.bind(this)}>FS</button>
